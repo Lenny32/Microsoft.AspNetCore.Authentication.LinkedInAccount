@@ -1,0 +1,2 @@
+# Microsoft.AspNetCore.Authentication.LinkedInAccount
+Microsoft.AspNetCore.Authentication.LinkedInAccount
