@@ -4,11 +4,11 @@ I copied the code of the Microsoft package and I adapted it for LinkedIn
 
 ```csharp
 app.UseLinkedInAccountAuthentication(new LinkedInAccountOptions(LinkedInFields.All)
-            {
-                AuthenticationScheme = "LinkedIn",
-                CallbackPath = new PathString("/signin-linkedin"),
-                ClientId = Configuration["Authentication:LinkedIn:ClientId"],
-                ClientSecret = Configuration["Authentication:LinkedIn:ClientSecret"],
-                Scope = { LinkedInScopes.BasicProfile, LinkedInScopes.EmailAddress }
-            });
+    {
+        AuthenticationScheme = "LinkedIn",
+        CallbackPath = new PathString("/signin-linkedin"),
+        ClientId = Configuration["Authentication:LinkedIn:ClientId"],
+        ClientSecret = Configuration["Authentication:LinkedIn:ClientSecret"],
+        Scope = { LinkedInScopes.BasicProfile, LinkedInScopes.EmailAddress }
+    });
 ```
