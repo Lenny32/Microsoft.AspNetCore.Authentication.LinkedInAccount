@@ -12,3 +12,4 @@ app.UseLinkedInAccountAuthentication(new LinkedInAccountOptions(LinkedInFields.A
         Scope = { LinkedInScopes.BasicProfile, LinkedInScopes.EmailAddress }
     });
 ```
+(Feel free to update/change the package to make it better)
